@@ -1,0 +1,16 @@
+{
+  "name": "ass5",
+  "version": "1.0.0",
+  "description": "DBMS Assignment 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaitesh Pachipulusu",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^7.13.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}

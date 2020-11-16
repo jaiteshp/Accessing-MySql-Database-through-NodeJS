@@ -2,12 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Node + Express + MongoDb example</title>
+    <title>Node + Express + MySql example</title>
   </head>
   <body>
-    <h1>Node + Express + MongoDb example</h1>
-    <p id="counter">Loading button click data.</p>
-    <button id="myButton">Click me!</button>
+    <h3>Use the buttons below to make queries</h3>
+    <!-- <p id="counter">Loading button click data.</p> -->
+    <button type="button" onclick="window.location.href='http://127.0.0.1:8080/query1'">Make Query 1</button>
+    <button type="button" onclick="window.location.href='http://127.0.0.1:8080/query2'">Make Query 2</button>
+    <button type="button" onclick="window.location.href='http://127.0.0.1:8080/query3'">Make Query 3</button>
+    <!-- <form id="search">
+        <input type="text" />
+        <button onclick="javascript:alert('hi');">Alert Hi</button>
+        
+    </form>​ -->
   </body>
   <script src="client.js"></script>
 </html>
